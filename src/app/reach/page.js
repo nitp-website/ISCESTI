@@ -33,11 +33,11 @@ export default function Reach() {
               </p>
               <p>
                 <strong>Email:</strong><br />
-                iscesti2027@nitp.ac.in
+                iscesti@nitp.ac.in
               </p>
               <p>
                 <strong>Enquiries:</strong><br />
-                For registration, sponsorship and submission queries, write to <a href="mailto:iscesti2027@nitp.ac.in">iscesti2027@nitp.ac.in</a>
+                For registration, sponsorship and submission queries, write to <a href="mailto:iscesti@nitp.ac.in">iscesti@nitp.ac.in</a>
               </p>
               <p>
                 <strong>Bank / Payment:</strong><br />

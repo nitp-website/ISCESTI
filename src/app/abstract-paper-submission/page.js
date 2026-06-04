@@ -56,7 +56,7 @@ export default function AbstractPaperSubmission() {
             <a href="/brochure.pdf" className="btn" download>Download Brochure (PDF)</a>
           </div>
 
-          <p className="contact-note">For queries: <strong>iscesti2027@nitp.ac.in</strong></p>
+          <p className="contact-note">For queries: <strong>iscesti@nitp.ac.in</strong></p>
         </div>
       </section>
 

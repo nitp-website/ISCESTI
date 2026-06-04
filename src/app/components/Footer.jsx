@@ -7,8 +7,8 @@ export default function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <img src="/img/ICTKS_main.png" alt="ICTKS Logo" />
-            <span>ICTKS</span>
+            <img src="/img/ISCESTI_main.png" alt="ISCESTI Logo" />
+            <span>ISCESTI</span>
           </div>
           <div className="footer-links">
             <div className="links-column">
@@ -26,12 +26,12 @@ export default function Footer() {
             <div className="links-column">
               <h4>Contact</h4>
               <p><i className="fas fa-map-marker-alt"></i> NIT Patna, Ashok Rajpath, <br /> Patna, Bihar, <br />800005, India</p>
-              <p><i className="fas fa-envelope"></i> ictks2026@nitp.ac.in</p>
+              <p><i className="fas fa-envelope"></i> ISCESTI2026@nitp.ac.in</p>
             </div>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2025 ICTKS - All Rights Reserved</p>
+          <p>&copy; 2025 ISCESTI - All Rights Reserved</p>
           <VisitorCounter />
           <div className="social-icons">
             <Link href="/reach"><i className="fab fa-facebook-f"></i></Link>

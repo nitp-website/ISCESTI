@@ -104,7 +104,7 @@ export default function Sponsors() {
               <li><strong>CSR alignment:</strong> Support for traditional knowledge and community outreach initiatives.</li>
             </ul>
             <p className="center bold">Support the Artisans | Celebrate Knowledge | Strengthen Traditions</p>
-            <p>For sponsorship enquiries contact: <a href="mailto:iscesti2027@nitp.ac.in">iscesti2027@nitp.ac.in</a></p>
+            <p>For sponsorship enquiries contact: <a href="mailto:iscesti@nitp.ac.in">iscesti@nitp.ac.in</a></p>
           </div>
         </section>
 

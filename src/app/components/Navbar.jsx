@@ -14,8 +14,8 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          <img src="/img/ICTKS_main.png" alt="ICTKS Logo" />
-          <span>ICTKS</span>
+          <img src="/img/ISCESTI_main.png" alt="ISCESTI Logo" />
+          <span>ISCESTI</span>
         </div>
         <div className="nav-toggle" onClick={toggleMenu}>
           <i className="fas fa-list" style={{color: '#56301e'}} id="list-icon"></i>

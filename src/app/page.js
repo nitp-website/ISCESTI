@@ -13,7 +13,7 @@ export default function Home() {
       <section className="conference-header">
         <div className="header-container">
           <div className="header-logo-left">
-            <img src="/img/ICTKS_main.png" alt="ICTKS Logo" />
+            <img src="/img/ISCESTI_main.png" alt="ISCESTI Logo" />
           </div>
           <div className="header-title-section">
             <h1 className="conference-main-title">
@@ -31,7 +31,7 @@ export default function Home() {
       {/* Full Poster Image with Overlay Content */}
       <section className="poster-image-section">
         <div className="poster-image-container">
-          <img src="/front_page.png" alt="ICTKS 2026 Conference Poster" className="full-poster-image" />
+          <img src="/front_page.png" alt="ISCESTI 2026 Conference Poster" className="full-poster-image" />
           
           {/* Overlay Content */}
           <div className="poster-overlay-content">
