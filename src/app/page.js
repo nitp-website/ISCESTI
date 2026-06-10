@@ -25,7 +25,7 @@ export default function Home() {
               <span className="conf-year">(ISCESTI-2027)</span>
             </h1>
             <p className="conference-date-text">
-              May 27-29, 2027 · Department of Civil Engineering, NIT Patna
+              May 27-29, 2027 ( NIT Patna )
             </p>
           </div>
           <div className="header-logo-right">
@@ -70,7 +70,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Triangle Divider */}
 <div class="triangle-divider align-items:center justify-content:center">
   <div class="triangle-text-layer align-items:center justify-content:center">
