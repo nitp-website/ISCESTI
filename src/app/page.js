@@ -20,11 +20,12 @@ export default function Home() {
             <h1 className="conference-main-title">
               International Conference on
               <br />
-              Innovation and Sustainability in Civil Engineering: Shaping Tomorrow’s Infrastructure 2027{" "}
+              Innovation and Sustainability in Civil Engineering: Shaping
+              Tomorrow’s Infrastructure 2027{" "}
               <span className="conf-year">(ISCESTI-2027)</span>
             </h1>
             <p className="conference-date-text">
-              May 27-29, 2027 · Department of Civil Engineering, NIT Patna
+              May 27-29, 2027 ( NIT Patna )
             </p>
           </div>
           <div className="header-logo-right">
@@ -56,7 +57,7 @@ export default function Home() {
             <div className="organizer-overlay">
               <p className="organized-by-overlay">Organized by</p>
               <p className="institute-overlay">
-                Department of Architecture and Planning
+                 Department of Civil Engineering
                 <br />
                 National Institute of Technology Patna, Ashok Rajpath, Patna,
                 Bihar, India
@@ -69,16 +70,18 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Triangle Divider */}
-      <div className="triangle-divider">
-        {/* <p>
-          The Microsoft CMT service was used for managing the peer-reviewing
-          process for this conference. This service was provided for free by
-          Microsoft and they bore all expenses, including costs for Azure cloud
-          services as well as for software development and support.
-        </p> */}
-      </div>
+<div class="triangle-divider align-items:center justify-content:center">
+  <div class="triangle-text-layer align-items:center justify-content:center">
+    <div class="cmt-notice-box ">
+      <h2 class="triangle-header">ACKNOWLEDGMENT</h2>
+      {/* <!-- The text is split into two valid paragraphs to comply with CMT rules --> */}
+      <p>The Microsoft CMT service was used for managing the peer-reviewing process for this conference.</p>
+      <p>This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</p>
+    </div>
+  </div>
+</div>
+
       {/* Introduction Section */}
       <section className="introduction">
         <div className="container">
