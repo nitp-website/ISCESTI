@@ -260,7 +260,7 @@ h1, h2, h3, h4 {
 
 /* Conference Header Section */
 .conference-header {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: linear-gradient(135deg, #dce0e3 0%, #e9ecef 100%);
     padding: 15px 20px;
     margin-top: 70px;
 }
@@ -584,15 +584,49 @@ h1, h2, h3, h4 {
     }
 }
 
-/* Triangle Divider */
-.triangle-divider {
+/* .triangle-divider {
     position: relative;
     height: 166px;
     background-color: var(--secondary-color);
     overflow: hidden;
 }
 
-.triangle-divider::before {
+/* Microsoft CMT Acknowledgment */
+.cmt-acknowledgment {
+    max-width: 1200px;
+    margin: 0 auto 50px auto;
+    padding: 18px 25px;
+    background-color: var(--card-bg);
+    border: 2px solid var(--primary-color);
+    border-left: 8px solid var(--accent-color);
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.cmt-acknowledgment p {
+    margin: 0;
+    color: var(--text-dark);
+    font-family: var(--font-poppins), 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: justify;
+    font-weight: 400; /* Keep plain text as required */
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .cmt-acknowledgment {
+        margin: 0 10px 30px 10px;
+        padding: 15px 18px;
+        border-left-width: 5px;
+    }
+
+    .cmt-acknowledgment p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
+/* .triangle-divider::before {
     content: '';
     position: absolute;
     top: 0;
@@ -601,7 +635,7 @@ h1, h2, h3, h4 {
     height: 100%;
     background-color: var(--primary-color);
     clip-path: polygon(0 0, 100% 0, 50% 100%);
-}
+} */
 
 /* Introduction Section */
 .introduction {
@@ -2353,9 +2387,88 @@ footer {
     }
 
     .triangle-divider {
-        height: 50px;
+        height: 60px;
+        justify-content: center;
     }
 
+
+/* THE OUTER BOX */
+.triangle-divider {
+    position: relative;
+    width: 100%;
+    /* Use min-height instead of fixed height so it scales up on mobile screens */
+    min-height: 166px; 
+    background-color: var(--secondary-color);
+    overflow: hidden;
+    
+    /* Flexbox centering layout */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Keeps text near the top/upper wide zone */
+    box-sizing: border-box;
+    
+    /* Dynamic side padding protects text from hitting the diagonal clip-path edges on small screens */
+    padding: 30px max(15px, 20vw) 60px max(15px, 20vw); 
+}
+
+/* THE BACKGROUND TRIANGLE SHAPE */
+.triangle-divider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    z-index: 2; /* Sits completely behind the text layer */
+}
+
+/* THE TEXT WRAPPER LAYER */
+.triangle-text-layer {
+    position: relative;
+    z-index: 2; /* Forces text to float directly over the background triangle */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* THE CONTAINER BOX FOR TEXT Content */
+.cmt-notice-box {
+    width: 100%;
+    min-width: 50px; /* Prevents text lines from getting too wide on large windows */
+    text-align: center;
+    padding-top:-2px;
+    /* CRITICAL CONTRAST: Forces text color to stand out sharply over your primary background */
+    color: #989393; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* HEADING */
+.triangle-header {
+    font-size: clamp(14px, 2vw, 20px); /* Dynamically shrinks text on small screens, grows on big windows */
+    margin-top: 0;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    color: white;
+    padding-top: -5px;
+}
+
+/* CMT PLAIN TEXT PARAGRAPHS */
+.cmt-notice-box p {
+    font-size: clamp(11px, 1.2vw, 14px); /* Font size smoothly auto-scales between window breakpoints */
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: -5px;
+}
+
+/* Removes margins on the last item to prevent layout bugs */
+.cmt-notice-box p:last-child {
+    margin-bottom: 0;
+}
     .submit-paper {
         margin-bottom: 20px;
         font-size: 18px;

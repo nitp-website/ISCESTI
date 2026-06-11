@@ -14,7 +14,7 @@ const imFellEnglish = IM_Fell_English({
 });
 
 export const metadata = {
-  title: "ISCESTI - International Conference on Traditional Knowledge System",
+  title: "International Conference on Innovation and Sustainability in Civil Engineering: Shaping Tomorrow’s Infrastructure 2027",
   description: "INTERNATIONAL CONFERENCE ON TRADITIONAL KNOWLEDGE SYSTEM organized by Department of Architecture and Planning, National Institute of Technology Patna, Bihar, India",
   icons: {
     icon: [
