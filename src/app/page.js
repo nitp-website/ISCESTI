@@ -70,17 +70,18 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       {/* Triangle Divider */}
-<div class="triangle-divider align-items:center justify-content:center">
-  <div class="triangle-text-layer align-items:center justify-content:center">
-    <div class="cmt-notice-box ">
-      <h2 class="triangle-header">ACKNOWLEDGMENT</h2>
-      {/* <!-- The text is split into two valid paragraphs to comply with CMT rules --> */}
-      <p>The Microsoft CMT service was used for managing the peer-reviewing process for this conference.</p>
-      <p>This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</p>
-    </div>
-  </div>
-</div>
+      <div className="triangle-divider">
+        <div className="triangle-text-layer">
+          <div className="cmt-notice-box">
+            <h2 className="triangle-header">ACKNOWLEDGMENT</h2>
+            {/* The text is split into two valid paragraphs to comply with CMT rules */}
+            <p>The Microsoft CMT service was used for managing the peer-reviewing process for this conference.</p>
+            <p>This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</p>
+          </div>
+        </div>
+      </div>
 
       {/* Introduction Section */}
       <section className="introduction">
