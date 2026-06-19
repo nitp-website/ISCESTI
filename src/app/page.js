@@ -122,12 +122,18 @@ export default function Home() {
                   Download Brochure
                 </a>
                 <a
-                  href="https://docs.google.com/document/d/1LoWSV6uDYA3TxyNGTAFu_gzk65qLBEdL/edit?usp=sharing&amp;ouid=108782734878398070057&amp;rtpof=true&amp;sd=true"
+                  href="/Abstract Template_ISCESTI2.0.docx"
                   className="btn"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  download
                 >
-                  Template Download
+                  Abstract Template
+                </a>
+                <a
+                  href="/Template for Full length Paper_ISCESTI2.0.docx"
+                  className="btn"
+                  download
+                >
+                  Full Paper Template
                 </a>
               </div>
             </div>
