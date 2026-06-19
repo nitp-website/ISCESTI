@@ -52,8 +52,9 @@ export default function AbstractPaperSubmission() {
           </ul>
 
           <div className="cta-buttons-overlay">
-            <a href="https://shorturl.at/P80k2" target="_blank" rel="noopener noreferrer" className="btn submit-paper">Submit Paper</a>
-            <a href="/brochure.pdf" className="btn" download>Download Brochure (PDF)</a>
+            <a href="/brochure.pdf" className="btn" download style={{ minWidth: '280px', textAlign: 'center' }}>Download Brochure (PDF)</a>
+            <a href="/Abstract Template_ISCESTI2.0.docx" className="btn" download>Abstract Template</a>
+            <a href="/Template for Full length Paper_ISCESTI2.0.docx" className="btn" download>Full Paper Template</a>
           </div>
 
           <p className="contact-note">For queries: <strong>iscesti@nitp.ac.in</strong></p>
