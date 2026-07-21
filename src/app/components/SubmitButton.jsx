@@ -3,7 +3,7 @@
 export default function SubmitButton() {
   return (
     <button 
-      onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdm8NbhrmpQDAEY-M9rmgEPLRqXg3tHdZK6pwoaOQs2gkH-tA/viewform')}
+      onClick={() => window.open('https://share.google/06qMnzK0XJM5XvQHz')}
       className="btn submit-paper"
     >
       Submit Paper
