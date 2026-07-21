@@ -260,7 +260,7 @@ h1, h2, h3, h4 {
 
 /* Conference Header Section */
 .conference-header {
-    background: linear-gradient(135deg, #dce0e3 0%, #e9ecef 100%);
+    background: linear-gradient(135deg, #1f51e8 0%, #259705 100%);
     padding: 15px 20px;
     margin-top: 70px;
 }
@@ -299,21 +299,21 @@ h1, h2, h3, h4 {
 .conference-main-title {
     font-size: 28px;
     font-weight: 700;
-    color: #7D1F1F;
+    color: #fcfcfc;
     line-height: 1.3;
     margin-bottom: 4px;
     font-family: Georgia, 'Times New Roman', serif;
 }
 
 .conf-year {
-    color: #7D1F1F;
+    color: #f1f4f4;
     font-weight: 700;
 }
 
 .conference-date-text {
     font-size: 18px;
     font-weight: 600;
-    color: #7D1F1F;
+    color: #f0eeee;
     margin: 0;
 }
 
@@ -323,12 +323,24 @@ h1, h2, h3, h4 {
 
 /* Poster Image Section */
 .poster-image-section {
-    background: linear-gradient(135deg, #E8F4F8 0%, #D4E9F2 100%);
+    /* Deep blue overlay combined with a background photo */
+    /*  */
+    background: 
+        linear-gradient(rgba(1, 23, 52, 0.88), rgba(1, 34, 79, 0.92)), 
+        url('https://res.cloudinary.com/dxmyyw7cn/image/upload/v1775485221/bgimage_kotn8i.jpg');
+    
+    
+    /* Background scaling properties */
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+
     padding: 20px 20px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 .poster-image-container {
     max-width: 1400px;
