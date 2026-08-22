@@ -612,6 +612,36 @@ export default function Home() {
         </TKSBox>
       </section>
 
+      {/* Free Global Media Partner Section */}
+      <section className="media-partner-section">
+        <div className="container">
+          <h2 className="media-partner-heading">Free Global Media Partner</h2>
+          <div className="media-partner-content">
+            <a
+              href="https://allconferencealert.net/india.php"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="media-partner-link"
+            >
+              <div className="media-partner-card">
+                <img
+                  src="/spons_img.jpeg"
+                  alt="AllConferenceAlert.net - Free Global Media Partner"
+                  className="media-partner-logo"
+                />
+                <div className="media-partner-info">
+                  <p className="media-partner-name">AllConferenceAlert.net</p>
+                  <p className="media-partner-tagline">
+                    Your gateway to global academic conferences
+                  </p>
+                  <span className="media-partner-visit">Visit Website →</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </>
   );
