@@ -1,12 +1,18 @@
-'use client';
+"use client";
 
 export default function SubmitButton() {
   return (
-    <button 
-      onClick={() => window.open('https://share.google/06qMnzK0XJM5XvQHz')}
+    <button
+      onClick={() =>
+        window.open(
+          "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FISCESTI2027%2FSubmission%2FManage",
+        )
+      }
       className="btn submit-paper"
     >
-      Submit Paper
+      Submit Abstract
+      <br />
+      Extended Abstract
     </button>
   );
 }
